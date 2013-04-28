@@ -32,22 +32,29 @@
 
 <h4>Allows to control to the characters that will be typed in an input field. By defaults only numbers are allowed. But you can allow decimal numbers with a custom decimal separator there are two allowed, or only alphabetical characters also. All they with a given length which is passed as a parameter.</h4>
 
-<p>Default options:<br>
+<p><strong>Default options:</strong><br>
 type         : 'num'<br>
 digits       : 8<br>
 separator    :'.'<br></p>
 
-<p>The parameter called 'type' which determine the characters will be typed.<br>
-Its allowed values are:<br>
+<h3>The parameter called 'type' which determine the characters will be typed.</h3>
+
+<p>Its allowed values are:<br>
    num only numbers <br>
    dec decimal number <br>
    alpha alphabetical characters. These are limited, you are free of add some more.<br></p>
 
-<p>The 'digits' parameter.<br>
-   digits are the length of the value, is an integer.<br>
-The 'separator' parameter.<br>
-   separator is the separator for the decimal number only can be '.' dot or ',' comma and only one.<br>
-Examples<br><code>$(selector).typeOnly();</code>
+<h3>The 'digits' parameter.</h3>
+
+<p>digits are the length of the value, is an integer.<br></p>
+
+<h3>The 'separator' parameter.</h3>
+
+<p>separator is the separator for the decimal number only can be '.' dot or ',' comma and only one.<br></p>
+
+<h3>Examples</h3>
+
+<p><code>$(selector).typeOnly();</code>
 <code>$(selector).typeOnly({type:'dec',digits:12,separator:','});</code><br><code>$(selector).typeOnly({type:'alpha',digits:2});</code><br></p>
       </section>
       <footer>
